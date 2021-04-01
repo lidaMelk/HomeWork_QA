@@ -1,0 +1,24 @@
+{
+    "name": "homework4-mocha",
+    "version": "1.0.0",
+    "description": "Unit test using Mocha framework",
+    "main": "index.js",
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "test": "mocha --config ./test/config/mocha.config.js",
+        "coverage": "nyc npm run test"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "eslint": "^7.23.0"
+    },
+    "dependencies": {
+        "chai": "^4.3.4",
+        "mocha": "^8.3.2",
+        "mochawesome": "^6.2.2",
+        "nyc": "^15.1.0"
+    }
+}
